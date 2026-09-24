@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" fill="none">
+  <defs>
+    <!-- Background and Glow Gradients -->
+    <radialGradient id="hGlow1" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#1E89C1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#1E89C1" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="hGlow2" cx="80%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#F37B20" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#F37B20" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Linear Gradients for UI elements -->
+    <linearGradient id="hCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="hChartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0288D1" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#0288D1" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="hBadgeOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="hShadow" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#0F2438" flood-opacity="0.12" />
+    </filter>
+    <filter id="hFloatingShadow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F2438" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="200" cy="180" r="180" fill="url(#hGlow1)" />
+  <circle cx="650" cy="380" r="160" fill="url(#hGlow2)" />
+
+  <!-- Main Showcase Container / Workstation Display -->
+  <g filter="url(#hShadow)">
+    <!-- Base Outer Shell -->
+    <rect x="50" y="40" width="700" height="420" rx="20" fill="url(#hCardBg)" stroke="#E2E8F0" stroke-width="1.5" />
+
+    <!-- Browser Chrome Header Bar -->
+    <rect x="50" y="40" width="700" height="48" rx="20" fill="#FFFFFF" />
+    <path d="M 50 68 H 750" stroke="#F1F5F9" stroke-width="1" />
+    
+    <!-- Window Control Dots -->
+    <circle cx="80" cy="64" r="5" fill="#EF4444" />
+    <circle cx="96" cy="64" r="5" fill="#F59E0B" />
+    <circle cx="112" cy="64" r="5" fill="#10B981" />
+
+    <!-- Omnibar URL Pill -->
+    <rect x="180" y="52" width="440" height="24" rx="6" fill="#F1F5F9" />
+    <circle cx="196" cy="64" r="3.5" fill="#10B981" />
+    <text x="210" y="68" font-family="'JetBrains Mono', monospace" font-size="11" fill="#475569">
+      https://<tspan fill="#0288D1" font-weight="700">portal.digegain.client</tspan>/live-dashboard
+    </text>
+
+    <!-- Top Right Status Badge -->
+    <rect x="640" y="52" width="90" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" />
+    <circle cx="652" cy="64" r="3" fill="#10B981" />
+    <text x="662" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#047857">LIVE SYSTEM</text>
+
+    <!-- Inner Content Grid (Sidebar + Main Workspace) -->
+    <!-- Mini Sidebar -->
+    <rect x="50" y="88" width="60" height="372" fill="#F8FAFC" />
+    <line x1="110" y1="88" x2="110" y2="460" stroke="#F1F5F9" stroke-width="1" />
+    
+    <!-- Sidebar Icons -->
+    <rect x="68" y="108" width="24" height="24" rx="6" fill="#0288D1" />
+    <rect x="74" y="114" width="12" height="12" rx="2" fill="#FFFFFF" opacity="0.9" />
+
+    <rect x="68" y="148" width="24" height="24" rx="6" fill="#E2E8F0" />
+    <circle cx="80" cy="160" r="5" fill="#94A3B8" />
+
+    <rect x="68" y="188" width="24" height="24" rx="6" fill="#E2E8F0" />
+    <rect x="75" y="195" width="10" height="10" rx="1" fill="#94A3B8" />
+
+    <rect x="68" y="228" width="24" height="24" rx="6" fill="#E2E8F0" />
+    <line x1="74" y1="240" x2="86" y2="240" stroke="#94A3B8" stroke-width="2" />
+
+    <!-- Main Workspace Content Area -->
+    <!-- Top Welcome Banner -->
+    <rect x="134" y="108" width="370" height="74" rx="12" fill="#F0F9FF" stroke="#BAE6FD" />
+    <text x="154" y="134" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0288D1" letter-spacing="1">PATIENT &amp; CLIENT CONVERSION ENGINE</text>
+    <text x="154" y="156" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#0F172A">Carewell Multi-Specialty Clinic</text>
+    <text x="154" y="172" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748B">Instant WhatsApp Token &amp; Slot Synchronization</text>
+
+    <!-- Top Right Quick Stat Card: Monthly Revenue -->
+    <rect x="520" y="108" width="206" height="74" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+    <text x="536" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#64748B">Quarterly Direct Gain</text>
+    <text x="536" y="156" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#0F172A">₹38,40,000</text>
+    <rect x="650" y="138" width="60" height="22" rx="11" fill="#DCFCE7" />
+    <text x="662" y="153" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803D">+164%</text>
+
+    <!-- Main Analytics Chart Area -->
+    <g transform="translate(134, 198)">
+      <rect x="0" y="0" width="370" height="236" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+      <text x="20" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Booking Conversion Flow</text>
+      <text x="20" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">30-day continuous inbound inquiries</text>
+
+      <!-- Chart Grid Lines -->
+      <line x1="20" y1="80" x2="350" y2="80" stroke="#F1F5F9" stroke-dasharray="3 3" />
+      <line x1="20" y1="120" x2="350" y2="120" stroke="#F1F5F9" stroke-dasharray="3 3" />
+      <line x1="20" y1="160" x2="350" y2="160" stroke="#F1F5F9" stroke-dasharray="3 3" />
+      <line x1="20" y1="200" x2="350" y2="200" stroke="#E2E8F0" />
+
+      <!-- Area Gradient Fill -->
+      <path d="M 20 185 Q 70 160 110 140 T 190 120 T 260 70 T 350 45 L 350 200 L 20 200 Z" fill="url(#hChartGrad)" />
+
+      <!-- Main Glowing Line -->
+      <path d="M 20 185 Q 70 160 110 140 T 190 120 T 260 70 T 350 45" stroke="#0288D1" stroke-width="3" fill="none" />
+
+      <!-- Secondary Comparison Line -->
+      <path d="M 20 195 Q 70 185 110 180 T 190 170 T 260 160 T 350 150" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4 4" fill="none" />
+
+      <!-- Highlight Data Point -->
+      <circle cx="260" cy="70" r="5" fill="#0288D1" stroke="#FFFFFF" stroke-width="2" />
+      <rect x="235" y="32" width="50" height="22" rx="4" fill="#0F172A" />
+      <text x="246" y="47" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">+84%</text>
+    </g>
+
+    <!-- Right Side: Live Appointment Stream -->
+    <g transform="translate(520, 198)">
+      <rect x="0" y="0" width="206" height="236" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+      <text x="16" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#0F172A">Live Inbound Queue</text>
+
+      <!-- Queue Item 1 -->
+      <rect x="12" y="42" width="182" height="54" rx="8" fill="#F8FAFC" stroke="#F1F5F9" />
+      <circle cx="32" cy="69" r="14" fill="#E0F2FE" />
+      <text x="28" y="73" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0288D1">DR</text>
+      <text x="54" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#1E293B">Dr. P. Menon</text>
+      <text x="54" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748B">Slot: 4:30 PM · Confirmed</text>
+      <circle cx="178" cy="62" r="3" fill="#10B981" />
+
+      <!-- Queue Item 2 -->
+      <rect x="12" y="104" width="182" height="54" rx="8" fill="#F8FAFC" stroke="#F1F5F9" />
+      <circle cx="32" cy="131" r="14" fill="#FEF3C7" />
+      <text x="28" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#D97706">AK</text>
+      <text x="54" y="124" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#1E293B">Ananya Kurian</text>
+      <text x="54" y="140" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748B">WhatsApp Token #29</text>
+      <circle cx="178" cy="124" r="3" fill="#0288D1" />
+
+      <!-- Queue Item 3 -->
+      <rect x="12" y="166" width="182" height="54" rx="8" fill="#F8FAFC" stroke="#F1F5F9" />
+      <circle cx="32" cy="193" r="14" fill="#DCFCE7" />
+      <text x="28" y="197" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803D">MS</text>
+      <text x="54" y="186" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#1E293B">Mohammed Salih</text>
+      <text x="54" y="202" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748B">Cart ₹18,500 · Paid UPI</text>
+      <circle cx="178" cy="186" r="3" fill="#10B981" />
+    </g>
+  </g>
+
+  <!-- Floating Badge 1: Ultra Speed Gauge (Top Right) -->
+  <g transform="translate(620, 20)" filter="url(#hFloatingShadow)">
+    <rect x="0" y="0" width="160" height="64" rx="14" fill="#FFFFFF" stroke="#E2E8F0" />
+    <circle cx="28" cy="32" r="16" fill="#ECFDF5" />
+    <path d="M 23 32 L 27 36 L 34 27" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="52" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#64748B">Core Web Vitals</text>
+    <text x="52" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#0F172A">0.8s <tspan font-size="11" font-weight="700" fill="#10B981">100/100</tspan></text>
+  </g>
+
+  <!-- Floating Badge 2: DIGEGAIN Growth Engine (Bottom Left) -->
+  <g transform="translate(20, 410)" filter="url(#hFloatingShadow)">
+    <rect x="0" y="0" width="220" height="74" rx="14" fill="#081827" stroke="#1E3A5F" />
+    
+    <!-- Mini DIGEGAIN Vortex Globe -->
+    <g transform="translate(14, 16) scale(0.42)">
+      <path d="M 28 35 C 32 23, 44 15, 60 15 C 69 15, 76 19, 78 23 C 76 26, 68 25, 58 26 C 46 27, 36 31, 28 35 Z" fill="#FBB03B" />
+      <path d="M 22 47 C 23 35, 36 27, 54 26 C 68 25, 80 30, 84 37 C 85 41, 82 43, 77 43 C 69 42, 58 35, 46 36 C 34 37, 26 43, 22 47 Z" fill="#F57C00" />
+      <path d="M 24 61 C 26 51, 38 45, 56 45 C 72 45, 84 50, 88 57 C 89 62, 85 64, 79 65 C 69 64, 55 56, 44 56 C 33 56, 26 62, 24 61 Z" fill="#38BDF8" />
+      <path d="M 31 72 C 36 64, 50 63, 66 64 C 78 65, 86 70, 86 74 C 84 77, 78 78, 69 77 C 57 76, 45 71, 37 73 C 33 74, 30 73, 31 72 Z" fill="#4CAF50" />
+      <path d="M 42 81 C 51 77, 65 78, 77 83 C 73 86, 63 87, 53 86 C 45 85, 41 83, 42 81 Z" fill="#22C55E" />
+    </g>
+
+    <text x="64" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#38BDF8" letter-spacing="1">DIGEGAIN ENGINE</text>
+    <text x="64" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">Zero Missed Leads</text>
+    <text x="64" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Automated WhatsApp + Email Alert</text>
+  </g>
+</svg>

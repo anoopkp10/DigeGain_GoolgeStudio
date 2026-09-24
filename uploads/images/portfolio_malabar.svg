@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bgMalabar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102A43"/>
+      <stop offset="100%" stop-color="#183654"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F37B20"/>
+      <stop offset="100%" stop-color="#FBB03B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#bgMalabar)"/>
+  
+  <!-- Browser Window Chrome -->
+  <rect x="24" y="24" width="752" height="452" rx="12" fill="#0D2033" stroke="rgba(30,137,193,0.3)" stroke-width="1.5"/>
+  <circle cx="50" cy="46" r="5" fill="#EF4444"/>
+  <circle cx="68" cy="46" r="5" fill="#F59E0B"/>
+  <circle cx="86" cy="46" r="5" fill="#10B981"/>
+  
+  <rect x="130" y="38" width="340" height="16" rx="8" fill="#183654"/>
+  <text x="145" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">malabarheritagebistro.com/reserve</text>
+
+  <!-- Left: Hero Culinary & Brand -->
+  <rect x="50" y="80" width="330" height="370" rx="8" fill="#152E47"/>
+  <rect x="70" y="105" width="140" height="14" rx="4" fill="url(#goldAccent)"/>
+  <text x="70" y="145" font-family="'Outfit', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Malabar Heritage</text>
+  <text x="70" y="170" font-family="'Outfit', sans-serif" font-size="14" fill="#94A3B8">Authentic Coastal Delicacies &amp; Fine Dining</text>
+  
+  <!-- Dish card inside mockup -->
+  <rect x="70" y="195" width="290" height="120" rx="8" fill="#1C3D5E"/>
+  <circle cx="120" cy="255" r="36" fill="#F37B20" opacity="0.25"/>
+  <circle cx="120" cy="255" r="28" fill="#FBB03B" opacity="0.4"/>
+  <text x="175" y="240" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Dum Biryani &amp; Seer Fish</text>
+  <text x="175" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#38BDF8">Chef Signature Selection</text>
+  <text x="175" y="285" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#FBB03B">₹850 / portion</text>
+
+  <!-- WhatsApp Booking Badge -->
+  <rect x="70" y="335" width="290" height="42" rx="8" fill="#42A83D"/>
+  <text x="120" y="361" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Direct WhatsApp Reservation</text>
+
+  <!-- Right: Interactive Table Reservation Flow -->
+  <rect x="400" y="80" width="350" height="370" rx="8" fill="#152E47" stroke="rgba(243,123,32,0.2)"/>
+  <text x="425" y="115" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Select Date &amp; Table Slot</text>
+
+  <!-- Calendar Strip -->
+  <g transform="translate(425, 135)">
+    <rect x="0" y="0" width="58" height="50" rx="6" fill="#1E89C1"/>
+    <text x="18" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#FFFFFF">FRI</text>
+    <text x="18" y="40" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">25</text>
+
+    <rect x="72" y="0" width="58" height="50" rx="6" fill="#1C3D5E"/>
+    <text x="90" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">SAT</text>
+    <text x="90" y="40" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">26</text>
+
+    <rect x="144" y="0" width="58" height="50" rx="6" fill="#1C3D5E"/>
+    <text x="162" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">SUN</text>
+    <text x="162" y="40" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">27</text>
+
+    <rect x="216" y="0" width="58" height="50" rx="6" fill="#1C3D5E"/>
+    <text x="234" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">MON</text>
+    <text x="234" y="40" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">28</text>
+  </g>
+
+  <!-- Time Slots -->
+  <text x="425" y="215" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94A3B8">Dinner Available Slots (Table for 4)</text>
+  <rect x="425" y="230" width="90" height="32" rx="6" fill="#1E89C1"/>
+  <text x="445" y="251" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">7:30 PM</text>
+
+  <rect x="525" y="230" width="90" height="32" rx="6" fill="#1C3D5E" stroke="rgba(255,255,255,0.1)"/>
+  <text x="545" y="251" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#CBD5E1">8:15 PM</text>
+
+  <rect x="625" y="230" width="90" height="32" rx="6" fill="#1C3D5E" stroke="rgba(255,255,255,0.1)"/>
+  <text x="645" y="251" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#CBD5E1">9:00 PM</text>
+
+  <!-- Live Status Card -->
+  <rect x="425" y="285" width="300" height="85" rx="8" fill="#102538" stroke="rgba(66,168,61,0.4)"/>
+  <circle cx="445" cy="310" r="6" fill="#42A83D"/>
+  <text x="460" y="314" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#42A83D">Instant Confirmation Active</text>
+  <text x="445" y="340" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Direct table reservation sent instantly to kitchen manager.</text>
+
+  <rect x="425" y="390" width="300" height="42" rx="8" fill="url(#goldAccent)"/>
+  <text x="510" y="416" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Confirm Table Booking</text>
+</svg>

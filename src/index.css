@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary-blue: #1E89C1;
+    --color-deep-blue: #3862B0;
+    --color-orange: #F37B20;
+    --color-green: #42A83D;
+    --color-light-blue: #F1F8FC;
+    --color-light-orange: #FFF5EC;
+    --color-dark-navy: #102A43;
+    --color-surface-white: #FFFFFF;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #102A43;
+    background-color: #F8FAFC;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  /* Tabular numbers for metrics and stats */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom Cursor support */
+@media (hover: hover) and (pointer: fine) {
+  .custom-cursor-active, .custom-cursor-active * {
+    cursor: none !important;
+  }
+}
+
+/* Glassmorphism & Subtle Tech Surfaces */
+.surface-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(30, 137, 193, 0.12);
+  box-shadow: 0 4px 20px -2px rgba(16, 42, 67, 0.05);
+}
+
+.surface-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.surface-card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(30, 137, 193, 0.28);
+  box-shadow: 0 16px 32px -4px rgba(16, 42, 67, 0.08), 0 0 0 1px rgba(30, 137, 193, 0.15);
+}
+
+/* Subtle Grid Background Pattern */
+.bg-tech-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(30, 137, 193, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 137, 193, 0.05) 1px, transparent 1px);
+}
+
+/* Smooth Glow effects */
+.glow-blue {
+  box-shadow: 0 0 50px -10px rgba(30, 137, 193, 0.25);
+}
+
+.glow-orange {
+  box-shadow: 0 0 40px -10px rgba(243, 123, 32, 0.3);
+}
+
+/* Animation utilities */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0.5deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 4s ease-in-out infinite;
+}

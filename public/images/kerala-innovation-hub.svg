@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" fill="none">
+  <defs>
+    <linearGradient id="hubBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2438" />
+      <stop offset="100%" stop-color="#081827" />
+    </linearGradient>
+    <linearGradient id="hubGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect x="0" y="0" width="900" height="450" rx="24" fill="url(#hubBg)" stroke="#1E3A5F" />
+
+  <!-- Kochi / Kerala Tech Studio Isometric Skyline Illustration -->
+  <g transform="translate(480, 80)">
+    <!-- Campus Building 1 (Glass Tower) -->
+    <path d="M 120 40 L 220 80 L 220 280 L 120 240 Z" fill="#1E3A5F" opacity="0.8" />
+    <path d="M 20 80 L 120 40 L 120 240 L 20 200 Z" fill="#2D557F" opacity="0.9" />
+    <path d="M 20 80 L 120 40 L 220 80 L 120 120 Z" fill="#3D73AA" />
+
+    <!-- Window Light Grids -->
+    <line x1="40" y1="110" x2="100" y2="85" stroke="#38BDF8" stroke-width="2" opacity="0.6" />
+    <line x1="40" y1="140" x2="100" y2="115" stroke="#38BDF8" stroke-width="2" opacity="0.8" />
+    <line x1="40" y1="170" x2="100" y2="145" stroke="#FDBA74" stroke-width="2" opacity="0.7" />
+
+    <line x1="140" y1="85" x2="200" y2="110" stroke="#38BDF8" stroke-width="2" opacity="0.5" />
+    <line x1="140" y1="115" x2="200" y2="140" stroke="#38BDF8" stroke-width="2" opacity="0.7" />
+    <line x1="140" y1="145" x2="200" y2="170" stroke="#34D399" stroke-width="2" opacity="0.8" />
+
+    <!-- Campus Building 2 (Modern Low-Rise) -->
+    <path d="M 200 160 L 320 200 L 320 310 L 200 270 Z" fill="#152A40" />
+    <path d="M 120 190 L 200 160 L 200 270 L 120 300 Z" fill="#1E3A5F" />
+    <path d="M 120 190 L 200 160 L 320 200 L 240 230 Z" fill="#254B72" />
+
+    <!-- Glowing Beacon / DIGEGAIN Antenna Signal -->
+    <line x1="120" y1="40" x2="120" y2="10" stroke="#0288D1" stroke-width="3" />
+    <circle cx="120" cy="10" r="4" fill="#38BDF8" />
+    <circle cx="120" cy="10" r="12" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="2 2" />
+    <circle cx="120" cy="10" r="22" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3 3" opacity="0.5" />
+
+    <!-- Palm Trees Silhouette (Kerala Signature) -->
+    <path d="M 10 260 Q 20 230 40 210 M 40 210 Q 15 205 0 220 M 40 210 Q 30 190 20 180 M 40 210 Q 55 190 70 200 M 40 210 Q 60 215 65 235" stroke="#22C55E" stroke-width="2.5" fill="none" />
+  </g>
+
+  <!-- Left Copy & Regional Impact Metrics -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="180" height="28" rx="14" fill="#0288D1" fill-opacity="0.2" stroke="#0288D1" />
+    <text x="14" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#38BDF8" letter-spacing="1">KOCHI TO GLOBAL SCALE</text>
+
+    <text x="0" y="72" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">Kochi Infopark Hub,</text>
+    <text x="0" y="106" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="800" fill="#0288D1">Worldwide Execution.</text>
+
+    <text x="0" y="146" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#94A3B8" width="380">
+      Headquartered at Kakkanad, Kochi with production-grade engineering deployments across Kerala, UAE, Europe, and the US.
+    </text>
+
+    <!-- 3 Quick Highlight Cards -->
+    <g transform="translate(0, 180)">
+      <!-- Card 1 -->
+      <rect x="0" y="0" width="115" height="100" rx="12" fill="url(#hubGlass)" stroke="#1E3A5F" />
+      <text x="14" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#38BDF8">50+</text>
+      <text x="14" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Custom Sites</text>
+      <text x="14" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Live &amp; Automated</text>
+
+      <!-- Card 2 -->
+      <rect x="130" y="0" width="115" height="100" rx="12" fill="url(#hubGlass)" stroke="#1E3A5F" />
+      <text x="144" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#F97316">₹2.4Cr+</text>
+      <text x="144" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Client Orders</text>
+      <text x="144" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Processed</text>
+
+      <!-- Card 3 -->
+      <rect x="260" y="0" width="115" height="100" rx="12" fill="url(#hubGlass)" stroke="#1E3A5F" />
+      <text x="274" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#34D399">100%</text>
+      <text x="274" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Direct WhatsApp</text>
+      <text x="274" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Lead Delivery</text>
+    </g>
+  </g>
+</svg>

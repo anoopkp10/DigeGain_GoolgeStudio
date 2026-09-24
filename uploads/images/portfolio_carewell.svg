@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bgCare" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A2540"/>
+      <stop offset="100%" stop-color="#123B63"/>
+    </linearGradient>
+    <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E89C1"/>
+      <stop offset="100%" stop-color="#3862B0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#bgCare)"/>
+  
+  <!-- Browser Chrome -->
+  <rect x="24" y="24" width="752" height="452" rx="12" fill="#06182A" stroke="rgba(30,137,193,0.3)" stroke-width="1.5"/>
+  <circle cx="50" cy="46" r="5" fill="#EF4444"/>
+  <circle cx="68" cy="46" r="5" fill="#F59E0B"/>
+  <circle cx="86" cy="46" r="5" fill="#10B981"/>
+  
+  <rect x="130" y="38" width="340" height="16" rx="8" fill="#12304F"/>
+  <text x="145" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">carewellpolyclinic.com/doctors/appointments</text>
+
+  <!-- Left: Doctor Directory -->
+  <rect x="50" y="80" width="330" height="370" rx="8" fill="#0C253E"/>
+  <text x="70" y="115" font-family="'Outfit', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Specialist Consultants</text>
+  <text x="70" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94A3B8">Kochi Central Medical Facility</text>
+
+  <!-- Doctor 1 Card -->
+  <rect x="70" y="155" width="290" height="75" rx="8" fill="#143454" stroke="rgba(30,137,193,0.3)"/>
+  <circle cx="105" cy="192" r="22" fill="#1E89C1" opacity="0.3"/>
+  <text x="100" y="197" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#38BDF8">Dr.</text>
+  <text x="140" y="185" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Dr. Pradeep Menon</text>
+  <text x="140" y="202" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#42A83D">Cardiology &amp; Internal Medicine</text>
+  <text x="140" y="218" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">Available Today: 4:00 PM – 7:30 PM</text>
+
+  <!-- Doctor 2 Card -->
+  <rect x="70" y="240" width="290" height="75" rx="8" fill="#0F2C47"/>
+  <circle cx="105" cy="277" r="22" fill="#42A83D" opacity="0.3"/>
+  <text x="100" y="282" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#42A83D">Dr.</text>
+  <text x="140" y="270" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Dr. Anjali Kurian</text>
+  <text x="140" y="287" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#38BDF8">Pediatric Care &amp; Neonatology</text>
+  <text x="140" y="303" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">Next Slot: Tomorrow 10:00 AM</text>
+
+  <!-- Emergency Badge -->
+  <rect x="70" y="335" width="290" height="50" rx="8" fill="#B91C1C" opacity="0.15" stroke="rgba(239,68,68,0.3)"/>
+  <text x="90" y="360" font-family="'Outfit', sans-serif" font-size="13" font-weight="700" fill="#EF4444">Emergency Helpline: +91 484 280 9000</text>
+  <text x="90" y="375" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#FCA5A5">24/7 Ambulance &amp; Critical Care On-Call</text>
+
+  <!-- Right: Patient Token & Slot Selector -->
+  <rect x="400" y="80" width="350" height="370" rx="8" fill="#0C253E"/>
+  <text x="425" y="115" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Direct Doctor Consultation Slot</text>
+
+  <rect x="425" y="135" width="300" height="48" rx="8" fill="#143454"/>
+  <text x="445" y="155" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Selected Department</text>
+  <text x="445" y="172" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Cardiology Consultation (Token #14)</text>
+
+  <g transform="translate(425, 200)">
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94A3B8">Preferred Slot</text>
+    <rect x="0" y="10" width="90" height="36" rx="6" fill="#1E89C1"/>
+    <text x="20" y="33" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">4:30 PM</text>
+
+    <rect x="105" y="10" width="90" height="36" rx="6" fill="#143454"/>
+    <text x="125" y="33" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#CBD5E1">5:15 PM</text>
+
+    <rect x="210" y="10" width="90" height="36" rx="6" fill="#143454"/>
+    <text x="230" y="33" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#CBD5E1">6:00 PM</text>
+  </g>
+
+  <!-- WhatsApp Token Alert -->
+  <rect x="425" y="270" width="300" height="70" rx="8" fill="#092036" stroke="rgba(66,168,61,0.3)"/>
+  <circle cx="445" cy="295" r="5" fill="#42A83D"/>
+  <text x="460" y="299" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#42A83D">WhatsApp Token Delivery</text>
+  <text x="445" y="322" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Patient receives live queue update &amp; prescription portal link.</text>
+
+  <rect x="425" y="360" width="300" height="42" rx="8" fill="url(#blueG)"/>
+  <text x="500" y="386" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Confirm Patient Appointment</text>
+</svg>

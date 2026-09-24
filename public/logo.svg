@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 90" fill="none">
+  <defs>
+    <!-- Top Warm Golden-Orange Gradient -->
+    <linearGradient id="dgNavGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBB03B" />
+      <stop offset="60%" stop-color="#F7931E" />
+      <stop offset="100%" stop-color="#F37021" />
+    </linearGradient>
+
+    <!-- Upper Main Orange Gradient -->
+    <linearGradient id="dgNavOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F57C00" />
+      <stop offset="50%" stop-color="#F37021" />
+      <stop offset="100%" stop-color="#E65100" />
+    </linearGradient>
+
+    <!-- Center Royal Blue Gradient -->
+    <linearGradient id="dgNavBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0288D1" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#01579B" />
+    </linearGradient>
+
+    <!-- Lower Fresh Green Gradient -->
+    <linearGradient id="dgNavGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="60%" stop-color="#22C55E" />
+      <stop offset="100%" stop-color="#16A34A" />
+    </linearGradient>
+
+    <!-- Bottom Green Tail Gradient -->
+    <linearGradient id="dgNavGreenDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E" />
+      <stop offset="100%" stop-color="#15803D" />
+    </linearGradient>
+  </defs>
+
+  <!-- Spherical Ribbon Vortex Globe Mark (Left) -->
+  <g transform="translate(4, 5) scale(0.88)">
+    <!-- Ribbon 1: Topmost Gold Arc -->
+    <path
+      d="M 28 35 C 32 23, 44 15, 60 15 C 69 15, 76 19, 78 23 C 76 26, 68 25, 58 26 C 46 27, 36 31, 28 35 Z"
+      fill="url(#dgNavGold)"
+    />
+
+    <!-- Ribbon 2: Upper Orange Swirl -->
+    <path
+      d="M 22 47 C 23 35, 36 27, 54 26 C 68 25, 80 30, 84 37 C 85 41, 82 43, 77 43 C 69 42, 58 35, 46 36 C 34 37, 26 43, 22 47 Z"
+      fill="url(#dgNavOrange)"
+    />
+
+    <!-- Ribbon 3: Center Royal Ocean Blue Swirl -->
+    <path
+      d="M 24 61 C 26 51, 38 45, 56 45 C 72 45, 84 50, 88 57 C 89 62, 85 64, 79 65 C 69 64, 55 56, 44 56 C 33 56, 26 62, 24 61 Z"
+      fill="url(#dgNavBlue)"
+    />
+
+    <!-- Ribbon 4: Lower Green Swirl -->
+    <path
+      d="M 31 72 C 36 64, 50 63, 66 64 C 78 65, 86 70, 86 74 C 84 77, 78 78, 69 77 C 57 76, 45 71, 37 73 C 33 74, 30 73, 31 72 Z"
+      fill="url(#dgNavGreen)"
+    />
+
+    <!-- Ribbon 5: Bottom Emerald Wingtip -->
+    <path
+      d="M 42 81 C 51 77, 65 78, 77 83 C 73 86, 63 87, 53 86 C 45 85, 41 83, 42 81 Z"
+      fill="url(#dgNavGreenDark)"
+    />
+  </g>
+
+  <!-- Typographic Brand Wordmark: DIGEGAIN in the Signature Sky-Blue -->
+  <text
+    x="96"
+    y="58"
+    font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="40"
+    font-weight="800"
+    fill="#0288D1"
+    letter-spacing="2.2"
+  >DIGEGAIN</text>
+</svg>

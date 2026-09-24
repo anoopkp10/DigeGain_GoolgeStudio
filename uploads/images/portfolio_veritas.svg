@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bgVeritas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#bgVeritas)"/>
+  <rect x="24" y="24" width="752" height="452" rx="12" fill="#090E17" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <circle cx="50" cy="46" r="5" fill="#EF4444"/>
+  <circle cx="68" cy="46" r="5" fill="#F59E0B"/>
+  <circle cx="86" cy="46" r="5" fill="#10B981"/>
+
+  <rect x="130" y="38" width="300" height="16" rx="8" fill="#1E293B"/>
+  <text x="145" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">veritasarchitects.com/works/tropical-cliff-house</text>
+
+  <!-- Clean Editorial Villa Architecture Mockup -->
+  <rect x="50" y="80" width="700" height="370" rx="8" fill="#0F172A"/>
+  
+  <text x="80" y="130" font-family="'Outfit', sans-serif" font-size="28" font-weight="700" fill="#F8FAFC">The Cliffside Monolith</text>
+  <text x="80" y="155" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#94A3B8">Varkala, Kerala · 5,800 sq.ft Sustainable Tropical Residence · Completed 2025</text>
+
+  <!-- Architectural Drawings / Grids -->
+  <g stroke="#334155" stroke-width="1" stroke-dasharray="4 4">
+    <line x1="80" y1="185" x2="720" y2="185"/>
+    <line x1="80" y1="360" x2="720" y2="360"/>
+    <line x1="380" y1="185" x2="380" y2="360"/>
+  </g>
+
+  <!-- Left Block: Schematic Concept -->
+  <rect x="80" y="200" width="280" height="145" rx="4" fill="#1E293B" opacity="0.6"/>
+  <text x="100" y="230" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#38BDF8">Section 01 // Structural Framework</text>
+  <text x="100" y="255" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#CBD5E1">Exposed cast-concrete cantilever suspended over the Arabian Sea. Cross-ventilation designed to eliminate artificial cooling during monsoons.</text>
+  <rect x="100" y="295" width="120" height="30" rx="4" fill="#334155"/>
+  <text x="115" y="315" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#FFFFFF">View Floorplans</text>
+
+  <!-- Right Block: Gallery Mockup -->
+  <rect x="400" y="200" width="320" height="145" rx="4" fill="#1E293B"/>
+  <rect x="415" y="215" width="290" height="85" rx="4" fill="#25354D"/>
+  <text x="430" y="260" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Interactive Lightbox Gallery</text>
+  <text x="415" y="325" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Curated photograph series by Architectural Digest India</text>
+
+  <!-- Bottom CTA bar -->
+  <rect x="80" y="380" width="640" height="50" rx="6" fill="#1E293B" stroke="rgba(30,137,193,0.3)"/>
+  <text x="105" y="411" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#FFFFFF">Commission an architectural study with Veritas Design Studio</text>
+  <rect x="580" y="390" width="125" height="30" rx="4" fill="#1E89C1"/>
+  <text x="598" y="410" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Inquire Project</text>
+</svg>
